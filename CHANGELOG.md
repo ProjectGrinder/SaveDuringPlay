@@ -2,3 +2,4 @@
 ### 1.0.1
 - Change namespace to Takayama.SaveDuringPlay
 - Fix throwing in Editor
+- Add Injector Class
