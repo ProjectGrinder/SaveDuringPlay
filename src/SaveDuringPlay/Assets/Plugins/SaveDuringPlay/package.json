@@ -1,0 +1,11 @@
+﻿{
+  "name": "com.takayama.save-during-play",
+  "version": "1.0.0",
+  "description": "Cinemachine's SaveDuringPlayAttribute without using Cinemachine.",
+  "displayName": "SaveDuringPlay",
+  "author": {
+    "name": "Nakuya",
+    "email": "tapaneya@windowslive.com"
+  },
+  "category": ["Tooling"]
+}
