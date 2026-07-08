@@ -37,9 +37,7 @@ When entering or exiting Play Mode, Unity completely flushes the C# domain and d
 
 Requires Unity 2022.3 or higher. Open `Window -> Package Manager`, click the `+` icon, select `Add package from git URL...`, and enter the following URL:
 
-```text
-[https://github.com/yourname/com.yourname.saveduringplay.git](https://github.com/yourname/com.yourname.saveduringplay.git)
-```
+[https://github.com/ProjectGrinder/SaveDuringPlay.git](https://github.com/ProjectGrinder/SaveDuringPlay.git)
 
 ## Usage
 
