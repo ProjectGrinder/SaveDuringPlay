@@ -45,7 +45,7 @@ Simply slap the `[SaveDuringPlay]` attribute onto any class inheriting from `Mon
 
 ```csharp
 using UnityEngine;
-using SaveDuringPlay;
+using Takayama.SaveDuringPlay;
 
 [SaveDuringPlay]
 public class EnemyBalancer : MonoBehaviour

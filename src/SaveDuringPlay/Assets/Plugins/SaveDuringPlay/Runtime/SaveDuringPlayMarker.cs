@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace SaveDuringPlay
+namespace Takayama.SaveDuringPlay
 {
     [DisallowMultipleComponent]
     public sealed class SaveDuringPlayMarker : MonoBehaviour

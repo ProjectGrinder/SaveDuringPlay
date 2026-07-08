@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using Object = UnityEngine.Object;
 
-namespace SaveDuringPlay.Editor
+namespace Takayama.SaveDuringPlay.Editor
 {
     [InitializeOnLoad]
     internal static class PlayModeSaver
