@@ -25,7 +25,7 @@ namespace Takayama.SaveDuringPlay.Editor
                     RestoreEditorStates();
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException(nameof(state), state, null);
+                    break;
             }
         }
 
@@ -43,7 +43,6 @@ namespace Takayama.SaveDuringPlay.Editor
                 {
                     if (comp == null || comp == marker) continue;
 
-                    // Key pattern: "GUID_ComponentTypeName"
                     string key = $"{marker.Guid}_{comp.GetType().FullName}";
                     string json = EditorJsonUtility.ToJson(comp);
                     SerializedDataCache[key] = json;
